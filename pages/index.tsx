@@ -10,7 +10,9 @@ const Home: NextPage = () => {
   return (
     <>
       <div className={styles.wrapper}>
-        <p className={styles.p}>Scroll down please...</p>
+        <p className={styles.p}>Scrolleá, por favor...</p>
+        <p className={styles.p2}>(si querés igual, obvio)</p>
+        <p className={styles.p3}>(te podés quedar acá sino)</p>
         <motion.div
           className={styles.arrow}
           initial={{ y: -100 }}
@@ -31,14 +33,14 @@ const Home: NextPage = () => {
           whileHover={{ scale: 1.1, color: "deeppink" }}
           whileTap={{ scale: 0.9 }}
         >
-          TESTING
+          testing
         </motion.h1>
         {helper ? (
           <motion.div
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
           >
-            You can click and drag this text!
+            Podés clickear y arrastrar este texto!
           </motion.div>
         ) : null}
       </div>

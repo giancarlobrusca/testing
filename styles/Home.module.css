@@ -9,9 +9,21 @@
 }
 
 .p {
+  font-size: 3rem;
   margin: 0;
-  margin-top: -300px;
+  margin-top: -100px;
+}
+
+.p2 {
+  font-size: 1rem;
+}
+.p3 {
+  font-size: 0.6rem;
   margin-bottom: 20px;
+}
+
+.arrow {
+  font-size: 3rem;
 }
 
 .title {
