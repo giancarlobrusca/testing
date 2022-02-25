@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           whileHover={{ scale: 1.1, color: "deeppink" }}
           whileTap={{ scale: 0.9 }}
         >
-          testing
+          TESTING
         </motion.h1>
         {helper ? (
           <motion.div
